@@ -17,11 +17,15 @@ caption=CSS Comb (SCSS)
 method=do_format_scss
 lexers=SCSS
 force_all=1
-config=cuda_fmt_css_comb.json
 
 [fmt3]
+caption=CSS Comb (Sass)
+method=do_format_sass
+lexers=Sass
+force_all=1
+
+[fmt4]
 caption=CSS Comb (LESS)
 method=do_format_less
 lexers=LESS
 force_all=1
-config=cuda_fmt_css_comb.json
