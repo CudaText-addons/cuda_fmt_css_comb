@@ -1,0 +1,27 @@
+[info]
+title=Formatter CSS Comb
+desc=Sorts CSS properties in specific order (CSScomb engine, requires Node.js)
+type=cudatext-plugin
+subdir=cuda_fmt_css_comb
+homepage=https://github.com/CudaText-addons/cuda_fmt_css_comb
+
+[fmt1]
+caption=CSS Comb
+method=do_format_css
+lexers=CSS
+force_all=1
+config=cuda_fmt_css_comb.json
+
+[fmt2]
+caption=CSS Comb (SCSS)
+method=do_format_scss
+lexers=SCSS
+force_all=1
+config=cuda_fmt_css_comb.json
+
+[fmt3]
+caption=CSS Comb (LESS)
+method=do_format_less
+lexers=LESS
+force_all=1
+config=cuda_fmt_css_comb.json
