@@ -1,5 +1,5 @@
 [info]
-title=Formatter CSS Comb
+title=Formatter for CSS: Comb
 desc=Sorts CSS properties in specific order (CSScomb engine, requires Node.js)
 type=cudatext-plugin
 subdir=cuda_fmt_css_comb
